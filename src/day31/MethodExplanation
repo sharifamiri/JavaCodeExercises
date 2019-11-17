@@ -1,0 +1,44 @@
+Methods with an example;
+
+0- You should already have a class and package and any of the imports you will be using;
+
+==^=^== such as import java.util.Arrays; or import java.util.Scanner;
+
+1- Add this snippet right under the class; public static void countFrom1toN(int n) {   } 
+==^=^==
+Two things to focus here: countFrom1toN is a method;
+						: int n is the parameter
+
+==^=^==
+2- Type this under the countFrom1toN method==> for(int i =10; i>0; i--) {System.out.print(i+" ");  }
+
+==^=^==
+3- to call countFrom1toN method, we will type like countFrom1toN(); in the main body
+
+==^=^== Just as the example main body:
+ 
+4- If you added the main method in the beginning, it is fine, if not, type the following;
+		public static void main(String[] args) {
+		count1ToN();
+		countDown();              		       }
+	
+==^=^== Example finished. Try to do it yourself and let's see if you will call methods in the examples.
+
+Akbar:
+
+/*
+     * methods : 
+     *   reusable code, maintainable code , write once and use it whenever needed
+     * 
+     * 3 questions to ask while creating a method : 
+     *    
+     *     does this method needs an object or not when being called 
+     *       -->> if not we use static keyword 
+     *    does this method take external data or not 
+     *        -->> if it doesn't we just end method name with empty ()
+     *        -->> if yes put data type and name : parameters seperated by comma
+     *    does this method return a value after being called 
+     *        --if not use void  
+     *        --if yes put the data type of the variable it return 
+     * 
+     * */
