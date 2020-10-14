@@ -7,7 +7,7 @@ public class DoWhileLoop {
 //		int x = 1;
 //		while(x<6) {
 //			System.out.println(x++);
-		}
+//		}
 
 		/*
 		 * do {

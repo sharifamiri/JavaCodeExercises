@@ -15,10 +15,10 @@ public class Practice {
 		    float price1=10.0f;
 		    float price2=2.0f;
 
-		    if(in.equals("chicken")||"burger"){
+		    if(in.equals("chicken")|| in.equals("burger")){
 		      System.out.println(price1);
 		    }
-		    if(in){
+		    if(in.equals("")){
 		      System.out.println(price2);
 		    }
 	}

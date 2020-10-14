@@ -24,16 +24,16 @@ public class UsingIndexForSearchingIndex {
 //	    System.out.println(  str.substring(4,5)   );
 
 	    for (int i = 0; i < str.length(); i++) {
-	      
-	      String eachChar = str.substring(i, i+1) ;
-	      
-	      if(i!= str.length()-1)
-	        System.out.print( eachChar  + "-" );
-	      else
-	        System.out.print( eachChar) ; 
+
+			String eachChar = str.substring(i, i + 1);
+
+			if (i != str.length() - 1)
+				System.out.print(eachChar + "-");
+			else
+				System.out.print(eachChar);
 //	      System.out.print( eachChar + ( (i!= str.length()-1)? "-" : "") ) ;
-		
-		
+
+		}
 		
 		for (int i = 0; i < str.length(); i+=2) {
 			

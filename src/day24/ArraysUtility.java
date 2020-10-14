@@ -17,7 +17,7 @@ public class ArraysUtility {
 		//it provides lots if pre-defined methods to work with
 		
 		System.out.println(Arrays.toString(nums));
-		String str = Arrays.toString(str);
+//		String str = Arrays.toString(str);
 		
 		
 	}

@@ -18,7 +18,7 @@ public class ArraysCopyRangeOf {
 		String copy2 = ""+Arrays.copyOfRange(heros, 0, 2) + Arrays.copyOfRange(heros, 3, 5);
 		String [] split = copy2.split(" ");
 		String [] copy10 = Arrays.copyOfRange(heros, 0, 10);
-		String [] a1 = copy1+copy10;
+//		String [] a1 = copy1+copy10;
 		System.out.println(Arrays.toString(copy1));
 		System.out.println(Arrays.toString(split));
 		System.out.println(Arrays.toString(copy10)); //will print null for the remaining

@@ -30,7 +30,7 @@ public class StringTrimming {
 
 		String a = "bird";
 		int b = 1234;
-		int a1 = a.indexOf(i);
+		int a1 = a.indexOf(b);
 		char a2 = a.charAt(0);
 		System.out.println(a1);
 		
